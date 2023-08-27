@@ -1,0 +1,85 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: ubuntu,arial,sans-serif ;
+    }
+    body{
+      background-image:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("photo.jpg");
+      background-size:cover;
+      background-repeat:no-repeat;
+      height:100vh;
+      width:100vw;
+    }
+    #container{
+      border-radius: 50px;
+      background: linear-gradient(0deg, #1488cc 0%, #2b32b2 100%);
+      background-opacity:5px;
+      width: 400px;
+      max-width: 80%;
+      margin: 50px auto;
+      box-shadow: 15px 15px 15px black;
+      outline: 1px  dashed white;
+      border:3px solid black;
+    }
+    
+    h1{
+        text-shadow: 5px 5px 2px black;  
+        padding: 20px;
+        margin-top: 20px;   
+        margin-bottom: 10px;
+        color: white;
+    }
+    
+    
+    h2{
+        text-shadow: 5px 5px 2px black;  
+        font-size: 50px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: white;
+    }
+    
+    button{
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        width: 200px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px black;
+        text-shadow: 2px 2px 0px black; 
+        border:2px solid black;   
+    }
+    
+    #increment-btn{
+        background: darkred;
+        margin: 5px;
+        height:50px;
+    }
+    
+    #save-btn{
+        background: darkgreen;
+        margin-top: 25px;
+        height:50px;
+    }
+    
+   button:active{
+        transition:0.2s ease;
+        border:0px;
+        box-shadow: 5px 5px 5px white;  
+    }
+    
+    #save-el{  
+      margin-top:15px;
+      color: white;
+      font-size: 20px;
+      padding: 20px;
+      border-top: 3px solid gold;
+      border-radius: 0px 0px 50px 50px;
+      overflow: none;
+    }
